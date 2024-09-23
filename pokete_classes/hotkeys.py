@@ -99,62 +99,61 @@ ACTION_DIRECTIONS = (Action.LEFT, Action.RIGHT, Action.UP, Action.DOWN)
 ACTION_UP_DOWN = (Action.UP, Action.DOWN)
 
 hotkey_mappings = {
-    '1': ActionList([Action.ACT_1, Action.DECK, Action.CHOOSE_ATTACK]),
-    '2': ActionList(
+    "&": ActionList([Action.ACT_1, Action.DECK, Action.CHOOSE_ATTACK]),
+    "é": ActionList(
         [
-            Action.ACT_2, Action.EXIT_GAME, Action.MOVE_POKETE,
-            Action.NATURE_INFO, Action.RUN
+            Action.ACT_2,
+            Action.EXIT_GAME,
+            Action.MOVE_POKETE,
+            Action.NATURE_INFO,
+            Action.RUN,
         ]
     ),
-    '3': ActionList(
+    '"': ActionList(
         [
-            Action.ACT_3, Action.MAP, Action.FREE_POKETE, Action.STATS_INFO,
-            Action.CHOOSE_ITEM
+            Action.ACT_3,
+            Action.MAP,
+            Action.FREE_POKETE,
+            Action.STATS_INFO,
+            Action.CHOOSE_ITEM,
         ]
     ),
-    '4': ActionList(
-        [
-            Action.ACT_4, Action.INVENTORY, Action.CHOOSE_POKE,
-            Action.ABILITIES_INFO
-        ]
+    "'": ActionList(
+        [Action.ACT_4, Action.INVENTORY, Action.CHOOSE_POKE, Action.ABILITIES_INFO]
     ),
-    '5': ActionList([Action.ACT_5, Action.POKEDEX]),
-    '6': ActionList([Action.ACT_6, Action.CLOCK]),
-    '7': ActionList([Action.ACT_7]),
-    '8': ActionList([Action.ACT_8]),
-    '9': ActionList([Action.ACT_9]),
-
-    'a':        ActionList([Action.LEFT]),
-    'Key.left': ActionList([Action.LEFT]),
-    'd':         ActionList([Action.RIGHT]),
-    'Key.right': ActionList([Action.RIGHT]),
-    'w':      ActionList([Action.UP]),
-    'Key.up': ActionList([Action.UP]),
-    's':        ActionList([Action.DOWN]),
-    'Key.down': ActionList([Action.DOWN]),
-
-    'Key.space': ActionList([Action.ACCEPT]),
-    'Key.enter': ActionList([Action.ACCEPT]),
-    'y':         ActionList([Action.ACCEPT, Action.QUICK_ATC_1]),
-    'o':         ActionList([Action.ACCEPT]),
-    'q':             ActionList([Action.CANCEL]),
-    'n':             ActionList([Action.CANCEL]),
-    'Key.esc':       ActionList([Action.CANCEL]),
-    'Key.backspace': ActionList([Action.CANCEL]),
-
-    'r': ActionList([Action.REMOVE]),
-    'i': ActionList([Action.INFO, Action.INVENTORY]),
-    'p': ActionList([Action.POKEDEX]),
-    'f': ActionList([Action.FREE_POKETE]),
-    'm': ActionList([Action.MAP, Action.MOVE_POKETE]),
-    'c': ActionList([Action.CLOCK, Action.QUICK_ATC_3]),
-    '?': ActionList([Action.HELP, Action.INFO]),
-    'e': ActionList([Action.MENU, Action.SCREEN_SWITCH]),
-    ':': ActionList([Action.CONSOLE]),
-
-    'z': ActionList([Action.QUICK_ATC_1]),
-    'x': ActionList([Action.QUICK_ATC_2]),
-    'v': ActionList([Action.QUICK_ATC_4]),
+    "(": ActionList([Action.ACT_5, Action.POKEDEX]),
+    "-": ActionList([Action.ACT_6, Action.CLOCK]),
+    "è": ActionList([Action.ACT_7]),
+    "_": ActionList([Action.ACT_8]),
+    "ç": ActionList([Action.ACT_9]),
+    "q": ActionList([Action.LEFT]),
+    "Key.left": ActionList([Action.LEFT]),
+    "d": ActionList([Action.RIGHT]),
+    "Key.right": ActionList([Action.RIGHT]),
+    "z": ActionList([Action.UP]),
+    "Key.up": ActionList([Action.UP]),
+    "s": ActionList([Action.DOWN]),
+    "Key.down": ActionList([Action.DOWN]),
+    "Key.space": ActionList([Action.ACCEPT]),
+    "Key.enter": ActionList([Action.ACCEPT]),
+    "y": ActionList([Action.ACCEPT, Action.QUICK_ATC_1]),
+    "o": ActionList([Action.ACCEPT]),
+    "a": ActionList([Action.CANCEL]),
+    "n": ActionList([Action.CANCEL]),
+    "Key.esc": ActionList([Action.CANCEL]),
+    "Key.backspace": ActionList([Action.CANCEL]),
+    "r": ActionList([Action.REMOVE]),
+    "i": ActionList([Action.INFO, Action.INVENTORY]),
+    "p": ActionList([Action.POKEDEX]),
+    "f": ActionList([Action.FREE_POKETE]),
+    "m": ActionList([Action.MAP, Action.MOVE_POKETE]),
+    "c": ActionList([Action.CLOCK, Action.QUICK_ATC_3]),
+    "h": ActionList([Action.HELP, Action.INFO]),
+    "e": ActionList([Action.MENU, Action.SCREEN_SWITCH]),
+    ":": ActionList([Action.CONSOLE]),
+    "w": ActionList([Action.QUICK_ATC_1]),
+    "x": ActionList([Action.QUICK_ATC_2]),
+    "v": ActionList([Action.QUICK_ATC_4]),
 }
 
 
